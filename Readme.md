@@ -1,6 +1,6 @@
 <section class="cover">
 
-# Mamá digital en Academia Desafío.
+# Mamá digital en Academia Desafío
 
 ![Logo mamá digital](./assets/img/afiche.png)
 
@@ -167,9 +167,9 @@ La etiqueta `<html>` especifica que desde ese punto en adelante todo lo que veng
 
 En HTML la etiqueta `<head>` Contendrá información variada, desde dónde encontrar las hojas de estilo o los iconos, hasta cuál es el título del sitio o sencillamente cómo debe manejar la página en el caso de que tenga que adaptarse a distintos tamaños de pantalla.
 
-# Creando nuestra página. 
+# Creando nuestra página
 
-## Trabajaremos en la cabeza (Head).
+## Trabajaremos en la cabeza (Head)
 
 Primero trabajaremos ingresando información que nuestra página tiene que indicarle al navegador para poder funcionar, trabajaremos en el **head**.
 
@@ -191,7 +191,7 @@ Ahora ya tenemos la estructura de nuestra página.
 
 !No olvides guardar la página¡, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
-### El título de la página.
+### El título de la página
 
 Ahora vamos a añadir un título a la página, para ello vamos a rellenar información en el **head** de nuestro archivo `index.html`.
 Este título lo veremos en el navegador, posiblemente en la pestaña(tab) o barra superior.
@@ -222,7 +222,7 @@ Si guardamos, y recargamos el navegador, el resultado será el siguiente:
 >El título tiene mucho valor en el SEO(search engine optimization) de un sitio web, esto quiere decir que los títulos son importantes para posicionar una página en un buscador.
 
 
-### Eliminando caracteres extraños.
+### Eliminando caracteres extraños
 Como recuerdan, nuestro primer mensaje tenia caracteres extraños donde se deberían mostrar tildes o letras Ñ. Esto se arregla con la etiqueta `<meta charset="utf-8">`. Esta indica que la codificación de la página muestre estos caracteres.
 
 También podemos ver que hay algo nuevo que no habíamos visto en otras etiquetas, en primer lugar la marca no se cierra, esto ocurre por una regla simple, si la etiqueta no tiene contenido, no se cierra, y para pasarle valores adicionales se ocupan **atributos** y **valores**, En este caso `charset` sería el *atributo* y `utf-8` el *valor*.
@@ -442,7 +442,9 @@ Para agregar imágenes utilizando esa etiqueta puedes hacerlo de dos maneras:
 -Directo de una URL de internet.
 -Desde una imagen desde tu proyecto (desde tu computador).
 
-### Imágenes desde internet:Podremos ingresar cualquier foto que este en internet si utilizamos su URL. URL quiere decir que es una dirección que apuntara hacia ese recurso.
+### Imágenes desde internet:
+
+Podremos ingresar cualquier foto que este en internet si utilizamos su URL. URL quiere decir que es una dirección que apuntara hacia ese recurso.
 
 Puedes ir a tu red social y elegir una foto, abrirla y con el botón secundario elegir en el menú, "copiar ruta de la imagen". También, puedes buscas en Google la imagen que quieras y también seleccionar "copiar dirección de la imagen"
 Con este paso, tendremos la URL de la foto.
@@ -636,7 +638,7 @@ Esto se vería así:![imagen resumen](./assets/img/htmlbasic.png)
 ***Revisa si tienes algo parecido a esto,   Felicidades¡ haz avanzado mucho , recuerda que si tienes dudas pide ayuda a los mentores.***
 
 
-## Ordenando nuestra página con `header` `div`,`main` y `footer`.
+## Ordenando nuestra página con `header` `div`,`main` y `footer`
 
 Tal como nuestra mamá nos dice siempre que ordenemos nuestra pieza, también deben estarlo nuestras páginas.
 Actualmente nuestro contenido esta dentro de la etiqueta `body` y no se distinguen las distintas secciones.
@@ -850,7 +852,7 @@ Solo hicimos la primera tarjeta, realiza el mismo proceso para el resto. Al fina
 
 
 
-# Capítulo 2 Darle cariño a la página.
+# Capítulo 2 Darle cariño a la página
 
 Ahora vamos a saltar al diseño de nuestra página web. Porque un HTML no es nadie sin su CSS.
 
@@ -1037,7 +1039,7 @@ Luego en el archivo CSS
 Para referirse a las clases se se escribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
 Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el contenido de color violeta.
 
-### Asignando clases a nuestro proyecto.
+### Asignando clases a nuestro proyecto
 
 Vamos añadir algunas clases a nuestros elementos, tal vez los nombres no tengan sentido para ti por el momento, mas adelante todo se arreglara.
 
@@ -1196,12 +1198,12 @@ Ahora que nuestro código esta completamente identificado con clases. Vamos a se
 
 Ahora vamos a explicar algunos efectos que vamos añadir mas adelante.
 
-### Tamaño de la fuente.
+### Tamaño de la fuente
 
 Además de darle color a la letra también podemos cambiar el tamaño.
 Eso se hace utilizando la propiedad `font-size`, y la utilizaremos en varios elementos de tu página.
 
-## Cambiando las tipografías.
+## Cambiando las tipografías
 
 Para cambiar la tipografía de una marca debemos ocupar la propiedad font-family ejemplo:
 
@@ -1253,7 +1255,7 @@ Para hacerlo mas facil puedes pegar lo siguiente en tu archivo html y css para o
 
 ```
 
-## Aplicando todo el estilo.
+## Aplicando todo el estilo
 
 Se puede aplicar estilo de muchas formas, y además existen muchas propiedades y atributos.
 
@@ -1408,7 +1410,7 @@ Con todo esto correctamente puesto en nuestra página. guarda tu archivo y recar
 
 ![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
 
-## Gracias por participar.
+## Gracias por participar
 
 
 
