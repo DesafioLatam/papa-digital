@@ -23,7 +23,7 @@ Trataremos de ir explicando cada término utilizado para que tengas un contexto 
 
 ## ¿Qué se necesita para este taller?
 
-Para el evento solo necesitas que tu computador tenga instalado, un navegador y un editor de texto. Y de tu parte  muchas ganas de participar y aprender.
+Para el evento sólo necesitas que tu computador tenga instalado, un navegador y un editor de texto. Y de tu parte  muchas ganas de participar y aprender.
 
 Como navegador puedes ocupar alguno de los siguiente:
 
@@ -45,9 +45,10 @@ Como editor de texto te recomendamos:
 
 Vamos a hacer una página web, para compartir recuerdos con todo el mundo, y mostrar los buenos momentos, que tengamos con nuestro papá, padrastro, abuelo. 
 
-La página se vera así:![web](./assets/img/sitio-web.png)
+La página se vera así:
+![web](./assets/img/sitio-web.png)
 
-¿Genial no?, Antes de continuar, vamos a definir algunos conceptos para acompañar la actividad con conocimientos básicos. ¡Vamos a ello!.
+¿Genial no? Antes de continuar, vamos a definir algunos conceptos para acompañar la actividad con conocimientos básicos. ¡Vamos a ello!.
 
 ## Introducción a páginas web
 
@@ -55,7 +56,7 @@ La página se vera así:![web](./assets/img/sitio-web.png)
 
 Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a que la respuesta esta en nuestro corazón, así que definiremos de forma muy simple algunos términos.
 
-***WebPage (página web):*** Es un documento que puede ser visto en la pantalla a través de un navegador como Firefox, Google Chrome, Internet Explorer. Solo es un documento.
+***WebPage (página web):*** Es un documento que puede ser visto en la pantalla a través de un navegador como Firefox, Google Chrome, Internet Explorer. sólo es un documento.
 
 ***Website (sitio Web):*** Es una colección de páginas(documentos), agrupadas y conectadas, generalmente de un mismo tema o tópico.
 
@@ -127,7 +128,7 @@ Al abrirlo en el navegador te debería aparecer algo como esto:
 
 ### Recapitulemos
 
-Fueron solo 5 pasos, Fácil ¿cierto?.
+Fueron sólo 5 pasos, fácil ¿cierto?.
 
 Respondamos algunas preguntas.
 
@@ -137,7 +138,7 @@ Porque es una convención, se subentiende que es el archivo índice que inicia u
 
 ***¿Por qué la extensión del archivo es .html?***
 
-El que sea .html dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, En la siguiente sección aprenderemos más  sobre HTML.
+El que sea *.html* dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, en la siguiente sección aprenderemos más sobre HTML.
 
 ## ¿Qué es HTML?
 
@@ -183,7 +184,7 @@ Primero trabajaremos ingresando información que nuestra página tiene que indic
 ### Estructura
 
 Le asignaremos un estructura a nuestro `index.html`.
-1-	En nuestro archivo `index.html`, borra el mensaje que habíamos creamos.
+1-	En nuestro archivo `index.html`, borra el mensaje que habíamos creado.
 
 2-	Escribe en la primera línea ```html``` y presiona *enter*.
 
@@ -196,14 +197,14 @@ Ahora ya tenemos la estructura de nuestra página.
 ![html-Autocompletado](./assets/img/html_estructura01.png)
 
 
-!No olvides guardar la página¡, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
+¡No olvides guardar la página!, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
 ### El título de la página
 
 Ahora vamos a añadir un título a la página, para ello vamos a rellenar información en el **head** de nuestro archivo `index.html`.
 Este título lo veremos en el navegador, posiblemente en la pestaña(tab) o barra superior.
 
-Para hacerlo, escribe entre las marcas `<title>` y `</title>` el titulo que deseas ponerle a tu página.
+Para hacerlo, escribe entre las marcas `<title>` y `</title>` el título que deseas ponerle a tu página.
 
 En mi caso dejare el título **Día del padre**
 
@@ -232,7 +233,7 @@ Si guardamos, y recargamos el navegador, el resultado será el siguiente:
 ### Eliminando caracteres extraños
 Como recuerdan, nuestro primer mensaje tenía carácteres extraños donde se deberían mostrar tíldes o letras Ñ. Esto se arregla con la etiqueta `<meta charset="utf-8">`. Esta indica que la codificación de la página muestre estos carácteres.
 
-También podemos ver que hay algo nuevo que no habíamos visto en otras etiquetas, en primer lugar la marca no se cierra, esto ocurre por una regla simple, si la etiqueta no tiene contenido, no se cierra, y para pasarle valores adicionales se ocupan **atributos** y **valores**, En este caso `charset` sería el *atributo* y `utf-8` el *valor*.
+También podemos ver que hay algo nuevo que no habíamos visto en otras etiquetas, en primer lugar la marca no se cierra, esto ocurre por una regla simple, si la etiqueta no tiene contenido, no se cierra, y para pasarle valores adicionales se ocupan **atributos** y **valores**, en este caso `charset` sería el *atributo* y `utf-8` el *valor*.
 
 ## Trabajando en el Body
 
@@ -241,9 +242,10 @@ También podemos ver que hay algo nuevo que no habíamos visto en otras etiqueta
 Una etiqueta en HTML es un elemento que define como se comporta y muestra el contenido que alberga, vamos a utilizar algunas etiquetas básicas del lenguaje para darle sentido a nuestra página.
 Todo lo que veremos desde ahora se debe escribir dentro de **body** *(hasta que se indique lo contrario), por ende dentro de las etiquetas* `<body>` `</body>`
 
-### Títulares y Subtitulares:
+### Titulares y Subtitulares:
 
-Una página web también tiene títulares y subtitulares, al igual que un periódico!, la marca para los titulares es `<h>` **más** un número del `1` al `6`. Siendo `<h1>` para el titular principal o con mayor importancia y `<h6>` para el subtítulo del subtítulo del subtítulo del subtítulo del subtítulo del título!.
+Una página web también tiene titulares y subtitulares, al igual que un periódico, la marca para los titulares es `<h>` **más** un número del `1` al `6`. Siendo `<h1>` para el titular principal o con mayor importancia y `<h6>` para el subtítulo del subtítulo del subtítulo del subtítulo del subtítulo del título.
+
 Por ejemplo escribamos en nuestro archivo index.html:
 
 ```html
@@ -265,7 +267,7 @@ Por ejemplo escribamos en nuestro archivo index.html:
 Guardemos los cambios, refrescamos el navegador y se debería ver algo como esto:
 
 ![imagen de titulares](./assets/img/titulos01.png)
-Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que otros elementos que veremos a continuación.Ahora vamos a añadir el título de muestra página, Así que eliminemos los títulares que ingresamos y escribamos lo siguiente.
+Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que otros elementos que veremos a continuación. Ahora vamos a añadir el título de muestra página, así que eliminemos los titulares que ingresamos y escribamos lo siguiente.
 
 
 ```html
@@ -290,7 +292,7 @@ Aun estamos muy lejos de la página que queremos lograr, pero vamos avanzando.
 
 ### Quiebre de línea con `<br>`
 
-Si observamos la página que queremos lograr, el titular principal esta en dos líneas, pareciera que son dos etiquetas, pero es solo una. Para lograr este resultado utilizaremos una etiqueta especial llamada "break line" `<br>`, agreguémosla en nuestro código.
+Si observamos la página que queremos lograr, el titular principal esta en dos líneas, pareciera que son dos etiquetas, pero es sólo una. Para lograr este resultado utilizaremos una etiqueta especial llamada "break line" `<br>`, agreguémosla en nuestro código.
 
 ```html
 <!DOCTYPE html>
@@ -308,7 +310,7 @@ Guardamos y recargamos la página en el navegador, deberíamos ver algo como est
 
 ![br](./assets/img/br.png)
 
-Genial!, ahora tenemos el titular de nuestra página, solo nos falta añadirle un detalle. 
+¡Genial!, ahora tenemos el titular de nuestra página, sólo nos falta añadirle un detalle. 
 
 La frase antes de "papá" lleva una tipografía más pequeña que el resto, para más adelante añadirle este efecto, vamos a envolverla en una etiqueta llamada "span", nuestro código debería quedar así:
 
@@ -325,15 +327,15 @@ La frase antes de "papá" lleva una tipografía más pequeña que el resto, para
 </html>
 ```
 
-Este cambio no por el momento no supondrá ningún cambio visual.
+Este cambio, por el momento, no supondrá ningún cambio visual.
 
 ## Continuando con la página.
 
 Para los siguientes pasos, nos fijaremos en la página de muestra. Luego de los títulos, vienen varias tarjetas con una foto, un títular y un párrafo, aprenderemos a crear estos elementos.
 
-### Nuevos títulares
+### Nuevos titulares
 
-Ya sabemos crear títulares, así que manos a la obra, crearemos 9 títulares `h5` en nuestras tarjetas. El contenido queda a tu elección, yo seguiré el ejemplo de la página mostrada al comienzo. Tu **HTML** debería verse así.
+Ya sabemos crear titulares, así que manos a la obra, crearemos 9 titulares `h5` en nuestras tarjetas. El contenido queda a tu elección, yo seguiré el ejemplo de la página mostrada al comienzo. Tu **HTML** debería verse así.
 
 ```html
 <!DOCTYPE html>
@@ -370,19 +372,18 @@ Si guardas y recargas la página, deberías ver algo similar a esto:
 
 ![](./assets/img/Titularesh3.png)
 
-### Párrafos y Lorem Ipsum.
+### Párrafos y Lorem ipsum.
 
 Los párrafos son otra etiqueta *HTML* muy útil para introducir texto al interior de nuestra página.
 
-Podemos observar que en las tarjetas de nuestra página va una descripción, este texto lo ingresaremos en párrafos.
-vamos a ello.
+Podemos observar que en las tarjetas de nuestra página va una descripción, este texto lo ingresaremos en párrafos. Vamos a ello.
 
-Debajo del primer titular `<h5>` escribe `p` y utiliza el tabulador. El autocompletado hará su trabajo y creara una etiqueta así:
+Debajo del primer titular `<h5>` escribe `p` y utiliza el tabulador. El autocompletado hará su trabajo y creará una etiqueta así:
 
 ```html
 	<p>    </p>
 ```
-Escribe dentro de estos párrafos una descripción del recuerdo mencionado en el titular. Por motivos de tiempo, sólo completaremos la descripción de 3 recuerdos. Los otros párrafos, los vamos autocompletar con un texto de prueba llamado "Lorem ipsum". Atom nos facilitara la vida ya que esta integrado en su autocompletado. 
+Escribe dentro de estos párrafos una descripción del recuerdo mencionado en el titular. Por motivos de tiempo, sólo completaremos la descripción de 3 recuerdos. Los otros párrafos, los vamos autocompletar con un texto de prueba llamado "Lorem ipsum". Atom nos facilitará la vida ya que está integrado en su autocompletado. 
 
 Para usarlo, dentro de un párrafo, escribe "lorem" y utiliza el tabulador, de forma automática se escribirá un texto de prueba.
 
@@ -391,7 +392,7 @@ Para usarlo, dentro de un párrafo, escribe "lorem" y utiliza el tabulador, de f
 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ```
 
-Si completas todos los párrafos, tu código y página deberían verse así.
+Si completas todos los párrafos, tu código y página debería verse así.
 
 ```html
 <!DOCTYPE html>
@@ -447,7 +448,7 @@ Hasta el momento sólo hemos utilizado texto, así que pondremos algunas imágen
 <img src=" " alt=" ">
 ~~~
 
-Donde `src` es *source* , que en español es fuente, que es un **atributo** de la etiqueta de imagen. `alt` es otro **atributo** de la etiqueta `img`, que te permite describir(brevemente) la imagen en caso de que no se pueda cargar por escasez de internet, o en navegadores de solo texto.
+Donde `src` es *source* , que en español es fuente, que es un **atributo** de la etiqueta de imagen. `alt` es otro **atributo** de la etiqueta `img`, que te permite describir(brevemente) la imagen en caso de que no se pueda cargar por escasez de internet, o en navegadores de sólo texto.
 
 Esta etiqueta no necesita cerrarse como lo hacen las anteriores.
 
@@ -456,13 +457,16 @@ Para agregar imágenes utilizando esa etiqueta puedes hacerlo de dos maneras:
 - Directo de una URL de internet.
 - Desde una imagen desde tu proyecto (desde tu computador).
 
-### Imágenes desde internet:
+### Imágenes desde Internet:
 
-Podremos ingresar cualquier foto que este en internet si utilizamos su URL. URL quiere decir que es una dirección que apuntara hacia ese recurso.
+Podremos ingresar cualquier foto que este en Internet si utilizamos su URL. URL quiere decir que es una dirección que apuntara hacia ese recurso.
 
-Puedes ir a tu red social y elegir una foto, abrirla y con el botón secundario elegir en el menú, "copiar ruta de la imagen". También, puedes buscas en Google la imagen que quieras y también seleccionar "copiar dirección de la imagen"
+Puedes ir a tu red social y elegir una foto, abrirla y con el botón secundario elegir en el menú, "copiar ruta de la imagen". También, puedes buscar en Google la imagen que quieras y también seleccionar "copiar dirección de la imagen"
+
 Con este paso, tendremos la URL de la foto.
-![copiar ruta](./assets/img/img_facebook.png)Esa url debes copiarla y pegarla dentro de los `" "` del source de la etiqueta `img`yo ingresare esta foto de ejemplo antes de mi primer `h5`.
+![copiar ruta](./assets/img/img_facebook.png) 
+
+Esa url debes copiarla y pegarla dentro de los `" "` del source de la etiqueta `img`yo ingresaré esta foto de ejemplo antes de mi primer `h5`.
 
 Mi código se debe ver así: 
 
@@ -510,10 +514,11 @@ Mi código se debe ver así:
 
  Guardo y recargo la página se vera así.
 ![image_añadida](./assets/img/facebook.png)
-Quizas la imagen que añadiste tenga un tamaño muy grande, no te preocupes, esto lo arreglaremos después.
+Quizás la imagen que añadiste tenga un tamaño muy grande, no te preocupes, esto lo arreglaremos después.
 
-##### Imágenes desde el computador: Tambien vamos a añadir imagenes de forma local. Primero crearemos una carpeta para organizar nuestros archivos externos.
-Crea **dentro** de tu proyecto una carpeta con el nombre *assets* y en su interior otra llamada *img*, Sera en esta carpeta donde vamos a añadir las imagenes que queramos en nuestra página.
+##### Imágenes desde el computador: También vamos a añadir imagenes de forma local. Primero crearemos una carpeta para organizar nuestros archivos externos.
+
+Crea **dentro** de tu proyecto una carpeta con el nombre *assets* y en su interior otra llamada *img*, será en esta carpeta donde vamos a añadir las imagenes que queramos en nuestra página.
 
 ~~~
 proyecto_web
@@ -526,15 +531,14 @@ assets
 
 * Las imágenes puede ser formato jpg, png, jpeg. Es importante que las imágenes estén dentro de la carpeta img, para luego poder buscarlas en esa ruta.
 
-En mi caso, yo tengo todas las imagenes que añadire en la página, si quieren utilizar estas mismas, las pueden descargar de [Acá](https://www.dropbox.com/sh/bhrvh94llnizj6j/AACxQwwFN1uWGIr6uMdg1_Yja?dl=0).
+En mi caso, yo tengo todas las imágenes que añadire en la página, si quieren utilizar estas mismas, las pueden descargar de [Acá](https://www.dropbox.com/sh/bhrvh94llnizj6j/AACxQwwFN1uWGIr6uMdg1_Yja?dl=0).
 
 Si descargan esta carpeta, deben añadirla en `assets/img`, su carpeta debería verse como esta imágen.
 
 ![](./assets/img/imgdirectory.png)
 
 
-Ya con las fotos incorporadas, voy añadir las primeras, luegos ustedes ya sabran como hacer el resto. 
-Mi código esta así:
+Ya con las fotos incorporadas, voy añadir las primeras, luegos ustedes ya sabrán como hacer el resto. Mi código está así:
 
 ```html
 <!DOCTYPE html>
@@ -589,6 +593,7 @@ y guardando y recargando la página esta así:
 ![](./assets/img/images.png)
 
 En este ejemplo yo añadí a las imágenes a la carpeta */assets/images/*.
+
 Entonces para agregarla en mi web se copia la ruta de donde se encuentra mi imagen en el `src` de la siguiente manera:
 
 ~~~html
@@ -600,7 +605,7 @@ Ahora te toca a ti poner una imagen sobre cada uno de los titulares `h5`.
 
 ## Recapitulemos
 
-Hagamos un pequeño resumen de lo que hemos aprendido:Si todo salió bien, Nuestro código debería verse así.
+Hagamos un pequeño resumen de lo que hemos aprendido: Si todo salió bien, nuestro código debería verse así:
 
 ```html
 <!DOCTYPE html>
@@ -653,7 +658,6 @@ Hagamos un pequeño resumen de lo que hemos aprendido:Si todo salió bien, Nuest
 
 *¡Hemos hecho todos estos pasos!*
 
-
 - Aprendimos a poner título a la página
 - Luego aprendimos a poner titulares y subtitulares.
 - Añadimos párrafos.
@@ -664,11 +668,11 @@ Hagamos un pequeño resumen de lo que hemos aprendido:Si todo salió bien, Nuest
 
 ## Ordenando nuestra página con `header` `div`,`main` y `footer`
 
-Nuestra págiuba debe estar ordenada siempre.
+Nuestra página debe estar ordenada siempre.
 
 Actualmente nuestro contenido esta dentro de la etiqueta `body` y no se distinguen las distintas secciones.
 
-Ahora conoceremos las etiquetas que nos ayudaran a segmentar  y ordenar la pieza, bueno no tanto, solo el código de la página.
+Ahora conoceremos las etiquetas que nos ayudaran a segmentar  y ordenar la pieza, bueno no tanto, sólo el código de la página.
 
 ### Header
 
@@ -688,9 +692,9 @@ Como en este ejemplo:
 
 ### main
 
-La etiqueta main nos indicara el contenido principal de nuestra página, en nuestro caso serán las tarjetas que contendrán las fotos y nuestros recuerdos.
+La etiqueta main nos indicará el contenido principal de nuestra página, en nuestro caso serán las tarjetas que contendrán las fotos y nuestros recuerdos.
 
-Lo haremos igual que con la etiqueta anterior, solo que esta vez agruparemos todo el resto del código.
+Lo haremos igual que con la etiqueta anterior, sólo que esta vez agruparemos todo el resto del código.
 
 Como en este ejemplo:
 
@@ -699,9 +703,9 @@ Como en este ejemplo:
 
 ### Footer
 
-Si observamos la página de ejemplo nos daremos cuenta que tenemos un lindo mensaje en la parte inferior de la página, todo esto estará al interior de una etiqueta llamada `footer` la cual agrupara el código que vamos a incluir.
+Si observamos la página de ejemplo nos daremos cuenta que tenemos un lindo mensaje en la parte inferior de la página, todo esto estará al interior de una etiqueta llamada `footer` la cual agrupará el código que vamos a incluir.
 
-Escribe lo siguiente en tu pagina web. abajo del cierre de la etiqueta `main`, ´footer´ y enter o tab para autocompletar.
+Escribe lo siguiente en tu página web. Abajo del cierre de la etiqueta `main`, ´footer´ y enter o tab para autocompletar.
 
 Luego, al interior de footer incluye lo siguiente 
 
@@ -710,7 +714,7 @@ Luego, al interior de footer incluye lo siguiente
   <h2><span>Te quiero</span><br>papá</h2>
 </footer>
 ```
-Guarda y recarga la página, el final de tu pagina debería verse así.
+Guarda y recarga la página, el final de tu pápáginagina debería verse así.
 
 ![](./assets/img/inicialfooter.png)
 
@@ -720,14 +724,14 @@ Guarda y recarga la página, el final de tu pagina debería verse así.
 Los divs son etiquetas que permiten anidar a otras etiqueta y nos permitirán darle un  estilo propio a la agrupación (esto lo haremos más adelante con CSS).
 Envuelve varias etiquetas, y todas las etiquetas envueltas por él, están bajo la influencia del div.
 vamos a añadir muchos divs en nuestra página, mucha atención:
-Primero tendremos un gran div que agrupara todos los elementos de `main`. Fíjate en el siguiente ejemplo:
+Primero tendremos un gran div que agrupará todos los elementos de `main`. Fíjate en el siguiente ejemplo:
 
 ![gif div principal](./assets/img/divprincipal.gif)
 
 
 **Por defecto al autocompletar un `div` aparece la etiqueta `class=""`, por el momento la dejaremos vacía. Recuerda pedir ayuda a los mentores si tienes dudas.**
 
-Cada div puede indicar una clase especifica, esto servirá más  adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
+Cada div puede indicar una clase específica, esto servirá más  adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
 
 Ya tenemos un gran `div`, ahora vamos añadir otros para segmentar nuestro código.
 
@@ -1036,7 +1040,7 @@ Guarda y ve el resultado, debería verse así:
 ![imagen de estilo](./assets/img/colortitulos.png)
 
 Lo que hace el código anterior es tomar todas las etiquetas al interior de header y aplicarle el color blanco (Siempre debes escribir los colores en inglés).
-El color de fondo se añadio con la propiedad `background-color`.
+El color de fondo se añadió con la propiedad `background-color`.
 Vemos que ahora tenemos toda la página con un color distinto al por defecto que es blanco.
 
 Nótese también que ahora no se utilizó darle el color nombrándolo, sino que se utilizó el sistema hexadecimal.
@@ -1045,7 +1049,7 @@ Más sobre colores en CSS [aquí](http://htmlcolorcodes.com/es/tutoriales/concep
 
 Elige el color que quieras para el fondo de tu página, puedes ayudarte con el siguiente selector de colores.
 
-[Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)Los atributos utilizados en esta sección están modificando todos los atributos contenidos. ¿Que ocurre si necesito, modificar solo uno especifico?
+[Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)Los atributos utilizados en esta sección están modificando todos los atributos contenidos. ¿Qué ocurre si necesito, modificar sólo uno específico?
 
 Ahora lo sabrás:
 
@@ -1053,7 +1057,7 @@ Ahora lo sabrás:
 
 Los **ID** son identificadores **únicos** para cada etiqueta, es como un nombre que se le da a la etiqueta para hacerla única.
 
-Por ejemplo se le asignará el id "parrafo1" al primer párrafo:
+Por ejemplo, se le asignará el id "parrafo1" al primer párrafo:
 
 ```html
 
@@ -1065,20 +1069,19 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Quo dolorem dignissimos expedita repellendus ducimus natus
 possimus, molestiae architecto, aperiam officiis, amet consequatur,
  nisi. Est accusamus eum quos natus architecto modi </p>
-
 ```
 
-De esta manera yo le puedo dar estilo específico a ese párrafo y no a todos.Ahora le asigno el estilo en mi archivo miestilo.css 
+De esta manera yo le puedo dar estilo específico a ese párrafo y no a todos. Ahora le asigno el estilo en mi archivo miestilo.css 
 
 ~~~css
 #parrafo1 {	color: blue;	}
 ~~~
 
-Ahora solo mi párrafo con id "parrafo1" tendrá el texto azul.
+Ahora sólo mi párrafo con id "parrafo1" tendrá el texto azul.
 
-Se escribe `#` para referirse a una id , y más el nombre para saber a cuál id me estoy refiriendo.
+Se escribe `#` para referirse a una id, y más el nombre para saber a cuál id me estoy refiriendo.
 
-Pero como se mencionaba anteriormente el id es único! Pero qué pasa si se quiere asignar esa propiedad a varias etiquetas distintas?
+Pero como se mencionaba anteriormente el id es único, pero ¿qué pasa si se quiere asignar esa propiedad a varias etiquetas distintas?
 
 Para eso existen las **clases**. Las clases son parecidos a un identificador pero **no** son únicas. Esto quiere decir que varios elementos pueden tener la misma clase. Como por ejemplo:
 
@@ -1102,7 +1105,7 @@ Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el conte
 
 ### Asignando clases a nuestro proyecto
 
-Vamos añadir algunas clases a nuestros elementos, tal vez los nombres no tengan sentido para ti por el momento, más  adelante todo se arreglara.
+Vamos añadir algunas clases a nuestros elementos, tal vez los nombres no tengan sentido para ti por el momento, más  adelante todo se arreglará.
 
 1. La primera clase será en nuestro header
 
@@ -1127,39 +1130,39 @@ ingresamos dos clases a esta etiqueta `container` y `remember-cards`
 
 ingresamos la clases `row` a esta estiqueta que envuelve todos los otros divs.
 	
-4. El div que agrupa 3 tarjetas llevara la siguiente clase:
+4. El div que agrupa 3 tarjetas llevará la siguiente clase:
 	
 ```html
 	<div class="card-deck">
 ```
   ingresamos la clases `card-deck` a esta estiqueta.
 
-5.	El div que envuelve a la tarjeta llevara la clase:
+5.	El div que envuelve a la tarjeta llevará la clase:
 	
 ```html
   <div class="card">	
 ```
 
-Esta clase se repite en todos los divs que agrupan las imagenes, el div y los textos de la tarjeta.
+Esta clase se repite en todos los divs que agrupan las imágenes, el div y los textos de la tarjeta.
 
-6.	Todas las imagenes llevaran la clase:
+6.	Todas las imágenes llevaran la clase:
 	
 ```html
 	<img class="card-img-top">
 ```
 
-7.	El div que agrupa los textos de las tarjetas llevara:
+7.	El div que agrupa los textos de las tarjetas llevará:
 	
 ```html
 	<div class="card-body">
 ```
 
-8. todos los `h5` llevaran la etiqueta
+8. todos los `h5` llevarán la etiqueta
 
 ```html
 		<h5 class="card-title">
 ```
-9.	Todos los `p` llevaran la etiqueta:
+9.	Todos los `p` llevarán la etiqueta:
 	
 ```html
   <p class="card-text">
@@ -1261,7 +1264,7 @@ Si añadiste todas las etiquetas de forma correcta tu código debería verse as�
 </html>
 ```
 
-Ahora que nuestro código esta completamente identificado con clases. Vamos a seguir modificando las propiedades de estilo.
+Ahora que nuestro código está completamente identificado con clases. Vamos a seguir modificando las propiedades de estilo.
 
 
 Ahora vamos a explicar algunos efectos que vamos añadir más adelante.
@@ -1281,24 +1284,24 @@ body{
   }
 ~~~
 
-font family acepta diversas tipografías simultáneamente a modo de fallback, o sea si una tipografía falla en cargar se cargará la siguiente, si una de los nombres de la tipografía tiene espacios entre medio hay que agregarla entre comillas `" "`
+*font family* acepta diversas tipografías simultáneamente a modo de fallback, o sea si una tipografía falla en cargar, se cargará la siguiente, si una de los nombres de la tipografía tiene espacios entre medio hay que agregarla entre comillas `" "`
 
 ### Googlefonts 
 
 Vamos a utilizar googleFonts para nuestras tipografías:
 [https://www.google.com/fonts](https://fonts.google.com/)
 
-Es una página web que permite cargar de forma sencilla diversas tipografías no tan comunes dentro de tu sitio,
+Es una página web que permite cargar de forma sencilla diversas tipografías no tan comunes dentro de tu sitio.
 
 Para utilizarla debes hacer click en la opción `select this font` de la fuente respectiva, luego seleccionar los pesos de la fuente.
 
-Importar la fuente dentro del HTML o dentro del CSS, por ejemplo si quisiéramos importar open sans dentro del HTML sería:
+Importar la fuente dentro del HTML o dentro del CSS, por ejemplo si quisiéramos importar Open Sans dentro del HTML sería:
 
 ~~~html
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 ~~~
 
-y finalmente utilizarla en nuestro archivo miestilo.css
+y finalmente utilizarla en nuestro archivo style.css
 
 ~~~css
 body {
@@ -1306,7 +1309,7 @@ body {
   }
 ~~~
 
-Para hacerlo más  facil puedes pegar lo siguiente en tu archivo html y css para obtener las tipografias esperadas.
+Para hacerlo más  facil puedes pegar lo siguiente en tu archivo HTML y CSS para obtener las tipografías esperadas.
 
 ```html
 <head>
@@ -1384,21 +1387,18 @@ footer span {
 }
 ```
 
-Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, solo repasaremos las vistas hasta ahora.
+Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, sólo repasaremos las vistas hasta ahora.
 
 ## Recapitulemos 
 
 Si has ido siguiendo las instrucciones, tu página ya debería verse mucho mejor desde cuando comenzamos.
+
 Hemos aprendido y celebrado de forma divertida con nuestro papá.
 
 ![](https://media.giphy.com/media/3o6UBhjHobLFgEmrJu/giphy-downsized.gif)
 
-
 ********
-
-
 # Capítulo 3
-
 ## Desafío 
 
 Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, Ahora te enseñaremos acerca de un Framework llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
@@ -1426,17 +1426,17 @@ Bootstrap es el framework más popular para el desarrollo de sitios responsive e
 
 Para integrar Boostrap a nuestro proyecto, hay dos formas, la primera es el utilizar un [CDN](https://www.bootstrapcdn.com/), la segunda descargando los archivos.
 
-El CDN consiste simplemente en 2 archivos CSS y un archivo JS de bootstrap y Jquery, estos deben ser linkeados en la página HTML donde se utilizaran.
+El CDN consiste simplemente en 2 archivos CSS y un archivo JS de Bootstrap y jQuery, estos deben ser linkeados en la página HTML donde se utilizarán.
 
 >Un CDN es una especie de página web para descargar contenido,
->pero está optimizada para la descarga rápida de assets, además>que los CDN tienen servidores en diversas partes del mundo>disminuyendo el impacto en la velocidad por distancia.
+>pero está optimizada para la descarga rápida de assets, además que los CDN tienen servidores en diversas partes del mundo disminuyendo el impacto en la velocidad por distancia.
 
 
 ### Añade bootstrap a tu proyecto y ve como se transforma.
 
 Durante la construcción del curso utilizamos muchas clases que aun no estamos utilizando, y claro, nuestro sitio no se ve como el de la foto.
 
-Lo que nos falta es: **Decirle a nuestro papá que lo amamos mucho** y añadir Bootstrap.
+Lo que nos falta es: **decirle a nuestro papá que lo amamos mucho** y añadir Bootstrap.
 
 Para hacerte la vida mucho más  fácil, sigue los siguientes pasos:
 
@@ -1455,7 +1455,7 @@ Para hacerte la vida mucho más  fácil, sigue los siguientes pasos:
 		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 ```
-Esta línea le indicara al navegador como se debe comportar con tu página.
+Esta línea le indicará al navegador como se debe comportar con tu página.
 
 2.	Segundo bajo el footer añade las siguientes líneas:
 
@@ -1468,11 +1468,9 @@ Esta línea le indicara al navegador como se debe comportar con tu página.
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 ```
-Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requisitos que necesita.
+Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requisitos que necesita. Con todo esto correctamente puesto en nuestra página. guarda tu archivo y recarga.  Si todo salió bien, debería verse como la imagen mostrada al inicio.
 
-Con todo esto correctamente puesto en nuestra página. guarda tu archivo y recarga la página.  Si todo salió bien, debería verse como la pagina mostrada al inicio.
-
-***¡ Mucho Éxito !***
+***¡ Mucho éxito !***
 
 ![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
 
