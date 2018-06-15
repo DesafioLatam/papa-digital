@@ -1,6 +1,6 @@
 <section class="cover">
 
-# Papá digital en Academia Desafío
+# Papá digital con Academia Desafío Latam y Hub Providencia
 
 ![Logo papá digital](./assets/img/afiche.png)
 
@@ -1401,7 +1401,7 @@ Hemos aprendido y celebrado de forma divertida con nuestro papá.
 # Capítulo 3
 ## Desafío 
 
-Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, Ahora te enseñaremos acerca de un Framework llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
+Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, ahora te enseñaremos acerca de un Framework llamado Bootstrap. Con él, podremos hacer muchas mejoras a nuestros sitios webs.
 
 Primero te explicaremos sus funcionalidades básicas y luego lo aplicaremos a nuestro sitio recién creado.
 
@@ -1475,6 +1475,7 @@ Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requ
 ![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
 
 ## Gracias por participar
+
 
 
 
