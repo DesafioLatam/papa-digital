@@ -45,7 +45,7 @@ Como editor de texto te recomendamos:
 
 Vamos a hacer una página web, para compartir recuerdos con todo el mundo, y mostrar los buenos momentos, que tengamos con nuestro papá, padrastro, abuelo. 
 
-La página se vera así:![web](./assets/img/web.png)
+La página se vera así:![web](./assets/img/sitio-web.png)
 
 ¿Genial no?, Antes de continuar, vamos a definir algunos conceptos para acompañar la actividad con conocimientos básicos. ¡Vamos a ello!.
 
@@ -475,9 +475,9 @@ Mi código se debe ver así:
   	</head>
   	<body>
     	<h1><span>Mis recuerdos con </span><br>papá</h1>
-
-	    <h5>Cocinando con papá</h5>
+	    
 	    <img src="https://scontent.fscl6-1.fna.fbcdn.net/v/t1.0-9/30571957_2153329024941595_8643680236489146368_n.jpg?_nc_cat=0&oh=01f6ce80a424ed30709ccef1aeabfe82&oe=5B948E5A">
+	    <h5>Cocinando con papá</h5>
 	    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	    
 	    <h5>Arreglando la casa</h5>
@@ -545,10 +545,9 @@ Mi código esta así:
   	</head>
   	<body>
    	 	<h1><span>Mis recuerdos con </span><br>papá</h1>
-
-	    <h5>Cocinando con papá</h5>
-   		
+   	 	
    		<img src="./assets/img/img-1.jpg" alt="cocinando">
+   		<h5>Cocinando con papá</h5>
 	    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	    
    		<img src="./assets/img/img-2.jpg" alt="arreglando">
@@ -571,11 +570,11 @@ Mi código esta así:
 		<h5>Mis primeros cuentos</h5>
 	    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	    
-	    <img src="./assets/img/img-7.jpg" alt="Halloween">	 
+	    <img src="./assets/img/img-7.jpg" alt="Halloween">
 		<h5>Fiesta de Halloween</h5>
 	    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	    
-	    <img src="./assets/img/img-8.jpg" alt="cenando">	 
+	    <img src="./assets/img/img-8.jpg" alt="cenando">
 		<h5>Cenando Juntos</h5>
 	    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	    
@@ -612,10 +611,9 @@ Hagamos un pequeño resumen de lo que hemos aprendido:Si todo salió bien, Nuest
   	</head>
   	<body>
     	<h1><span>Mis recuerdos con </span><br>papá</h1>
-
-	    <h5>Cocinando con papá</h5>
    		
    		<img src="./assets/img/img-1.jpg" alt="cocinando">
+   		<h5>Cocinando con papá</h5>
 	    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	    
    		<img src="./assets/img/img-2.jpg" alt="arreglando">
@@ -646,7 +644,7 @@ Hagamos un pequeño resumen de lo que hemos aprendido:Si todo salió bien, Nuest
 		<h5>Cenando Juntos</h5>
 	    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	    
-	    <img src="./assets/img/img-9.jpg" alt="ganando">	 
+	    <img src="./assets/img/img-9.jpg" alt="ganando">
 		<h5>Cuando le gané por primera vez</h5> 
 	    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</body>
@@ -789,7 +787,7 @@ si todo salió bien tu código debería verse así:
 				<h5>Fiesta de Halloween</h5>
 			    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			    
-			    <img src="./assets/img/img-8.jpg" alt="cenando">	 
+			    <img src="./assets/img/img-8.jpg" alt="cenando">
 				<h5>Cenando Juntos</h5>
 			    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			    
@@ -1475,8 +1473,6 @@ Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requ
 Con todo esto correctamente puesto en nuestra página. guarda tu archivo y recarga la página.  Si todo salió bien, debería verse como la pagina mostrada al inicio.
 
 ***¡ Mucho Éxito !***
-
-
 
 ![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
 
