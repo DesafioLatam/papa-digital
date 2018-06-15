@@ -1468,7 +1468,7 @@ Esta línea le indicará al navegador como se debe comportar con tu página.
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 ```
-Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requisitos que necesita. Con todo esto correctamente puesto en nuestra página. guarda tu archivo y recarga.  Si todo salió bien, debería verse como la imagen mostrada al inicio.
+Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requisitos que necesita. Con todo esto correctamente puesto en nuestra página, guarda tu archivo y recarga.  Si todo salió bien, debería verse como la imagen mostrada al inicio.
 
 ***¡ Mucho éxito !***
 
