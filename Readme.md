@@ -1391,7 +1391,7 @@ Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/
 ## Recapitulemos 
 
 Si has ido siguiendo las instrucciones, tu página ya debería verse mucho mejor desde cuando comenzamos.
-Hemos aprendido y celebrado de forma divertida con nuestra mama.
+Hemos aprendido y celebrado de forma divertida con nuestro papá.
 
 ![](https://media.giphy.com/media/3o6UBhjHobLFgEmrJu/giphy-downsized.gif)
 
@@ -1484,4 +1484,3 @@ Con todo esto correctamente puesto en nuestra página. guarda tu archivo y recar
 
 
 
-# papa-digital
