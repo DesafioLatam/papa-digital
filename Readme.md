@@ -102,7 +102,7 @@ Presionamos enter y el archivo quedó guardado como index.html
 Ahora escribiremos, en nuestro archivo:
 
 ~~~html
-¡Feliz de Papá!
+¡Feliz Día Papá!
 ~~~
 
 Luego guardamos el archivo, para hacerlo puedes ir a la opción File / save, pero te recomiendo que utilices el atajo del teclado.
